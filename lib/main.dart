@@ -86,11 +86,11 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
 
             TextSpan(text: 'Red & White',style: TextStyle(fontSize: 60,
-                decoration:TextDecoration.underline,color:Colors.red ,
-                decorationColor:Colors.red ,fontWeight: FontWeight.bold,letterSpacing: 1),),
+                decoration:TextDecoration.underline,color:Colors.redAccent ,
+                decorationColor:Colors.redAccent ,fontWeight: FontWeight.bold,letterSpacing: 1),),
 
-            TextSpan(text : '\n      Multimidia Education',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold,color: Colors.red,height: -0.100),),
-            TextSpan(text : '\n\n   Shaping "skills" for "scaling" heigher...!!! ',style: TextStyle(fontSize: 16,color: Colors.red,height: 1,fontWeight: FontWeight.bold,),),
+            TextSpan(text : '\n      Multimidia Education',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold,color: Colors.redAccent,height: -0.100),),
+            TextSpan(text : '\n\n   Shaping "skills" for "scaling" heigher...!!! ',style: TextStyle(fontSize: 16,color: Colors.redAccent,height: 1,fontWeight: FontWeight.bold,),),
 
           ]
         ),
